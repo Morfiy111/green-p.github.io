@@ -16,6 +16,9 @@ a:hover {
     text-decoration: none;
     border-bottom: 1px solid #91D13E;;
 }
+.header-logo a:hover {
+    border-bottom: 1px solid transparent;
+}
 .container {
     overflow-x: hidden;
 }
@@ -37,6 +40,10 @@ a:hover {
 .nav > li > a {
     padding: 10px;
     border-bottom: 1px solid transparent;
+    
+}
+.navbar-default .nav > li > a {
+    color: #5c7284;
 }
 .nav > li > a:hover {
     border-bottom: 1px solid #5c7284;
@@ -134,15 +141,15 @@ button.close {
     margin-bottom: 20px;
     font-size: 18px;
 }
-h1 {
+.subtitle-page {
     z-index:4
 }
-.style-title h1 {
+.style-title .subtitle-page {
     position: relative;
     text-align: center;
     margin-bottom: 40px;
 }
-.style-title h1:after {
+.style-title .subtitle-page:after {
     content: "";
     position: absolute;
     background: #91D13E;
@@ -153,7 +160,7 @@ h1 {
     left: 0;
     right: 0;
 }
-.style-title h1:before {
+.style-title .subtitle-page:before {
     content: "";
     position: absolute;
     background: #91D13E;
@@ -287,7 +294,14 @@ h1 {
     opacity: 1;
     border: 6px solid #91D13E;    
 }    
- 
+.background-gray-block {
+    background-color: #5c7284;
+    padding: 40px 0;
+    color: #fff;
+}
+.animate-arrow-block a {
+    color: #fff;
+}
 @keyframes bounceIn {
     0% {
         opacity: 0;
