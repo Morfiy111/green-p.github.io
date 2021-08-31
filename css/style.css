@@ -1,0 +1,238 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    font-size: 16px;
+    color: #333;
+}
+a, button {
+    transition: all .2s linear;
+    color: #662483;
+}
+a:focus {
+    text-decoration: none;
+}
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+.container {
+    overflow-x: hidden;
+}
+.navbar-header-auto {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding: 15px 0;
+}
+.navbar-collapse {
+    padding: 0;
+}
+.search-header button {
+    background-color: transparent;
+    border: none;
+}
+.nav > li > a {
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+}
+.nav > li > a:hover {
+    border-bottom: 1px solid #662483;
+}
+.header-logo img {
+    width: 233px;
+}
+.main__header {
+    margin: 20px 0;
+}
+.banner-item-text {
+    position: absolute;
+    width: 478px;
+    top: 105px;
+    left: 20%;
+    color: #666666
+}
+.owl-carousel-item {
+    position: relative;
+}
+.banner-item-text p {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.banner-item-text a {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.main-site-btn {
+    background: #662483;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    padding: 16px 72px;
+    border: 2px solid #662483;
+}
+.main-site-btn:hover {
+    background-color: transparent;
+    color: #662483;
+}
+.main-banner {
+    margin-bottom: 40px;
+}
+
+.owl-prev {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.owl-next {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chevron-background {
+    font-size: 55px;
+    color: #662483;
+    transition: all .3s linear;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: transparent
+}
+.arrow-7 {
+    transform: rotate(270deg);
+}
+.arrow-7 span {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-bottom: 5px solid #662483;
+    border-right: 5px solid #662483;
+    transform: rotate(45deg);
+    margin: -16px 0;
+    animation: arrow-7 2s infinite;
+}
+.arrow-7 span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow-7 span:nth-child(3){
+    animation-delay: -0.4s;
+}
+.animate-arrow-block {
+    display: flex;
+    padding-bottom: 10px;
+}
+.banner-content img {
+    width: 100%;
+}
+.banner-content h1 {
+    color: #662483;
+}
+.banner-content .banner-item-text {
+    top: 33%;
+    left: 10%;;
+}
+.text-content-block {
+    margin: 40px 0;
+}
+.banner-content {
+    position: relative;
+}
+@keyframes arrow-7 {
+    0%{
+        opacity: 0;
+        transform: translate(0,-20px) rotate(45deg);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translate(0,20px) rotate(45deg);
+    }
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        margin-right: 40px;
+    }
+}
+@media (max-width: 1199px) {
+    .owl-carousel .owl-item img {
+        display: block;
+        height: 400px;
+        text-align: center;
+        max-width: 100%;
+        object-fit: cover;
+    }
+    .operations-image img {
+        width: 100%;
+    }
+    .banner-content img {
+        height: 300px;
+        text-align: center;
+        max-width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        margin: 0 15px;
+    }
+    .nav:before, .nav:after, .navbar:before, .navbar:after {
+        content: none;
+    }
+    .menu-address-block .navbar-nav {
+        margin: 0;
+    }
+    .banner-item-text p {
+        font-size: 18px;
+    }
+    .banner-item-text h2 {
+        font-size: 30px;
+    }
+    .banner-item-text {
+        top: 60px;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-header-auto {
+        display: block;
+    }
+    .header-logo {
+        float: left;
+    }
+    .search-header {
+        margin: 0 15px;;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #662483;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #662483;
+    }
+    .menu-address-block .navbar-nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .operations-item {
+        width: 47%;
+    }
+    .banner-content h1 {
+        font-size: 24px;
+    }
+}
+@media(max-width: 500px) {
+    
+}
