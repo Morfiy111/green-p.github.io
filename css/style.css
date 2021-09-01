@@ -43,7 +43,7 @@ a:hover {
     color: #5c7284;
 }
 .nav > li > a:hover {
-    border-bottom: 1px solid #5c7284;
+    border-bottom: 1px solid #91D13E;
 }
 .header-contact-block {
     display: flex;
@@ -57,7 +57,7 @@ a:hover {
     border-bottom: 1px solid transparent;
 }
 .header-contact-block a:hover {
-    border-bottom: 1px solid #5c7284;
+    border-bottom: 1px solid #91D13E;
 }
 .header-flex-block {
     display: flex;
