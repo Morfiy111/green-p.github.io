@@ -541,7 +541,6 @@ button.close:hover, button.close:focus {
         object-fit: cover;
     }
 }
-
 @media (max-width: 991px) {
     .navbar-nav {
         margin: 0 15px;
@@ -561,6 +560,18 @@ button.close:hover, button.close:focus {
     .banner-item-text {
         top: 60px;
     }
+    .header-contact-block {
+        justify-content: flex-end;
+    }
+    .header-flex-block .order-button-click {
+        margin-top: 10px;
+    }
+    .main-product-item {
+        width: 82%;
+    } 
+    .galery-item {
+        width: 32%;
+    }   
 }
 @media (max-width: 767px) {
     .navbar-header-auto {
@@ -590,6 +601,9 @@ button.close:hover, button.close:focus {
     }
     .banner-content h1 {
         font-size: 24px;
+    }
+    .main-product-item {
+        width: 100%;
     }
 }
 @media(max-width: 500px) {
