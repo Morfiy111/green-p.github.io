@@ -19,9 +19,7 @@ a:hover {
 .header-logo a:hover {
     border-bottom: 1px solid transparent;
 }
-.container {
-    overflow-x: hidden;
-}
+
 .navbar-header-auto {
     background-color: transparent;
     border: none;
@@ -300,6 +298,7 @@ button.close {
     background-color: #5c7284;
     padding: 40px 0;
     color: #fff;
+    margin-bottom: 40px;
 }
 .animate-arrow-block a {
     color: #fff;
@@ -376,6 +375,27 @@ button.close {
 .main-product-title .animate-arrow-block .arrow-7 span {
     border-bottom: 5px solid #fff;
     border-right: 5px solid #fff;
+}
+.document-item a {
+    color: #fff;
+}
+.document-item {
+    margin-bottom: 5px;
+}
+.galery-flex-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.galery-item {
+    width: 19.5%;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+.galery-item img {
+    width: 100%;
 }
 @keyframes bounceIn {
     0% {
