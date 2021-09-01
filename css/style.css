@@ -540,6 +540,9 @@ button.close:hover, button.close:focus {
         max-width: 100%;
         object-fit: cover;
     }
+    .main-product-title {
+        top: 74%;
+    }
 }
 @media (max-width: 991px) {
     .navbar-nav {
