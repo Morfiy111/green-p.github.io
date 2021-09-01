@@ -72,6 +72,9 @@ a:hover {
     font-size: 14px;
     background-color: #fff;
 }
+.order-button-click:hover {
+    color: #5c7284;
+}
 .order-button-click::before {
     content: '';
     background-color: #fff;
@@ -117,6 +120,9 @@ button.close {
     position: relative;
     right: 15px;
     top: 7px;
+}
+button.close:hover, button.close:focus {
+    color: #91D13E;
 }
 .banner-item-text {
     position: absolute;
@@ -433,7 +439,7 @@ button.close {
 }
 .map-order-send {
     position: absolute;
-    top: -405px;
+    top: -440px;
     right: 0;
     background-color: #fff;
     padding: 15px;
@@ -470,6 +476,13 @@ button.close {
 }
 .footer-address {
     width: 24%;
+}
+.map-order-send h3 {
+    margin-top: 0;
+}
+.privacy-policy {
+    font-size: 12px;
+    margin-top: 12px;
 }
 @keyframes bounceIn {
     0% {
