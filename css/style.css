@@ -582,14 +582,20 @@ button.close:hover, button.close:focus {
     } 
     .galery-item {
         width: 32%;
-    }   
+    }
+    .main-product-title {
+        top: 89%;
+    }
+    .dealers-flex-item {
+        width: 32%;
+    }
 }
 @media (max-width: 767px) {
     .navbar-header-auto {
         display: block;
     }
     .header-logo {
-        float: left;
+        margin-bottom: 10px;
     }
     .search-header {
         margin: 0 15px;;
@@ -598,10 +604,10 @@ button.close:hover, button.close:focus {
         background-color: transparent;
     }
     .navbar-default .navbar-toggle {
-        border-color: #662483;
+        border-color: #91D13E;
     }
     .navbar-default .navbar-toggle .icon-bar {
-        background-color: #662483;
+        background-color: #91D13E;
     }
     .menu-address-block .navbar-nav {
         display: flex;
@@ -616,7 +622,65 @@ button.close:hover, button.close:focus {
     .main-product-item {
         width: 100%;
     }
+    .footer-flex-block {
+        flex-wrap: wrap;
+    }
+    .footer-address {
+        width: 100%;
+        text-align: left;
+    }
+    .footer-links, .footer-logo {
+        margin-right: 15px;
+    }
+    .image-text-block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-flex-text {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .banner-item-text {
+        left: 3%;
+    }
 }
 @media(max-width: 500px) {
-    
+    .image-flex-block {
+        width: 100%;
+    }
+    .banner-item-text {
+        width: 90%;
+    }
+    .galery-item, .dealers-flex-item {
+        width: 49%;
+    }
+    .contacts-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .main-product-title {
+        top: 77%;
+    }
+    .map-order-send {
+        position: initial;
+        width: 100%;
+        border-bottom: 1px solid #e9e9e9;
+    }
+    .header-flex-block {
+        flex-wrap: wrap;
+    }
+    .header-contact-block {
+        justify-content: center;
+    }
+    .main-product-title .product-font-size-title {
+        font-size: 18px;
+    }
+    .header-flex-block {
+        justify-content: center;
+    }
+}
+@media(max-width: 380px) {
+    .main-product-title {
+        top: 70%;
+    }
 }
