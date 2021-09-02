@@ -398,9 +398,14 @@ button.close:hover, button.close:focus {
     border: 1px solid #91D13E;
     border-radius: 4px;
     margin-bottom: 8px;
+    overflow: hidden;
+}
+.galery-item:hover img {
+    transform: scale(1.1);
 }
 .galery-item img {
     width: 100%;
+    transition: all .2s linear;
 }
 .dealers-flex-block {
     display: flex;
