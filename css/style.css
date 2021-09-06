@@ -489,6 +489,9 @@ button.close:hover, button.close:focus {
     font-size: 12px;
     margin-top: 12px;
 }
+.footer-page {
+    border-top: 1px solid #e9e9e9;
+}
 @keyframes bounceIn {
     0% {
         opacity: 0;
