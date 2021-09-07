@@ -517,6 +517,30 @@ button.close:hover, button.close:focus {
     transform: skew(-10deg, 10deg);
     transition: all .2s ease-in-out;
 }
+.partners-page-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.partners-page-title span {
+    font-size: 22px;
+}
+.partners-page-title img {
+    width: 100%;
+}
+.partners-page-title {
+    width: 18%;
+}
+.partner-text {
+    width: 77%;
+}
+.partners-page-item:last-child {
+    border-bottom-color: transparent;
+    margin-bottom: 40px;
+}
 @keyframes bounceIn {
     0% {
         opacity: 0;
@@ -705,6 +729,19 @@ button.close:hover, button.close:focus {
     }
     .header-flex-block {
         justify-content: center;
+    }
+    .partners-page-item {
+        flex-wrap: wrap;
+    }
+    .partners-page-title {
+        width: 100%;
+    }
+    .partner-text {
+        width: 100%;
+    }
+    .partners-page-title img {
+        max-width: 100%;
+        width: auto;
     }
 }
 @media(max-width: 380px) {
