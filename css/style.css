@@ -492,6 +492,31 @@ button.close:hover, button.close:focus {
 .footer-page {
     border-top: 1px solid #e9e9e9;
 }
+.background-green-block {
+    background-color: #91D13E;
+}
+.reason-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.reason-item {
+    width: 32%;
+    padding: 20px;
+    text-align: center;
+}
+.reason-text {
+    font-weight: bold;
+    color: #fff;
+}
+.reason-icon img {
+    height: 60px;
+    margin-bottom: 10px;
+}
+.reason-icon:hover img {
+    transform: skew(-10deg, 10deg);
+    transition: all .2s ease-in-out;
+}
 @keyframes bounceIn {
     0% {
         opacity: 0;
@@ -616,7 +641,7 @@ button.close:hover, button.close:focus {
         display: flex;
         flex-wrap: wrap;
     }
-    .operations-item {
+    .operations-item, .reason-text {
         width: 47%;
     }
     .banner-content h1 {
