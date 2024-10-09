@@ -998,6 +998,17 @@ button.close:focus {
     margin-bottom: 40px;
 }
 
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+    background-color: #5c7284;
+    border-color: #5c7284;
+}
+
+.aside-categories {
+    padding-left: 0;
+}
+
 @media (max-width: 991px) {
     .main-product-item {
         width: 48%;
