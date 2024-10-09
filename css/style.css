@@ -994,6 +994,10 @@ button.close:focus {
     border-bottom: none;
 }
 
+.main-product-title .carousel-news-title {
+    margin-bottom: 40px;
+}
+
 @media (max-width: 991px) {
     .main-product-item {
         width: 48%;
