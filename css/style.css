@@ -1017,6 +1017,17 @@ button.close:focus {
     .main-product-item {
         width: 48%;
     }
+
+    .aside-categories {
+        width: 30%;
+    }
+}
+
+@media (max-width: 767px) {
+    .aside-categories {
+        width: 100%;
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 550px) {
