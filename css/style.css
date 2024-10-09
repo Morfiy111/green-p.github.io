@@ -1009,6 +1009,10 @@ button.close:focus {
     padding-left: 0;
 }
 
+.main-product-block {
+    justify-content: space-between;
+}
+
 @media (max-width: 991px) {
     .main-product-item {
         width: 48%;
